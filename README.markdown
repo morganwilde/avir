@@ -7,4 +7,4 @@ Here's the latest demo screenshot
 
 # TODO's
 
-1. If readInt() is the only instance providing output, in some cases backspace removes too many space
+1. .
