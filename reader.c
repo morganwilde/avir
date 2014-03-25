@@ -177,8 +177,6 @@ int readInt(int *destination, int intMin, int intMax) {
             } 
             // Value reached zero
             else {
-                //printf("bad valabs[%d]\n", valueAbs);
-                //fflush(stdout);
                 printf("\b %c\b", placeholder);
                 fflush(stdout);
                 
