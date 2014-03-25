@@ -15,10 +15,13 @@ int main(int argc, char *argv[]) {
         "",
         NULL
     };
-    printDisplay(messages, 3);
+    //printDisplay(messages, 3);
 
     // Display possible interfaces
     
+    message = readIntNoRange(&number);
+    printf(" ---> [%d]\n", number);
+    /*
     printf("(%d; %d) %24s", INT_MIN, INT_MAX, "Type bounded number: ");
     message = readIntNoRange(&number);
     printf(" ---> [%d]\n", number);
@@ -40,6 +43,7 @@ int main(int argc, char *argv[]) {
     printf(", and number two: ");
     readIntReturn();
     printf(".\n");
+    */
 
     return 0;
 }
